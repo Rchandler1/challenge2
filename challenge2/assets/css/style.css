@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --lightblue: #7bbeeb;
+    --darkblue: #123e9c;
+}
+
+body{
+    color: var(--darkblue);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    padding: 10px 35px 10px 0px;
+    background-color: var(--lightblue);
+    
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0 10px 0 50px;
+    display: inline;
+    background-color: var(--darkblue);
+}
+header a {
+    text-decoration: none;
+    color: var(--lightblue);
+}
+
+header nav {
+    float: right;
+    color:var(--darkblue);
+}
+
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: var(--darkblue);
+    font-weight: bold;
+    padding: 0 3px 0 3px;
+    border-bottom: 3px solid var(--darkblue);
+}
+
+.hero {
+    background-image: url("../images/russell.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative
+}
+
+.hero-text {
+    background-color: var(--lightblue);
+    padding: 10px;
+  width: auto;
+  color: #024e76;
+  position: absolute;
+  bottom: 20px;
+  right: 60px;
+  font-weight: bold;
+}
+
+.content h2 {
+    font-size: 60px;
+    padding: 0 10px 0 20px;
+    display: inline-block;
+    flex-wrap:wrap;
+}
+
+article {
+    background-color: red;
+    background-size: 400px 200px;
+}
+
+.text {
+    border-left: 3px solid var(--darkblue);
+    padding: 0 0 0 20px;
+    text-align: center;
+    display: inline;
+    flex-wrap: nowrap;
+    float: inline-end;
+    
+}
+
+#contact-me ul li {
+    float: right;
+    text-align: center;
+    display: inline;
+    font-weight: bold;
+    padding: 0px 3px 0 3px;
+    border-bottom: 3px solid var(--darkblue);
+    margin: 0 70px 10px 70px;
+}
+
+
